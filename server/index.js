@@ -36,8 +36,7 @@ const server = app.listen(process.env.PORT, () =>
 );
 const io = socket(server, {
   cors: {
-    origin: "https://message-me-ap.onrender.com",
-    methods: ["GET", "POST"],
+    origin: "https://message-me-pa.netlify.app",
     credentials: true,
   },
 });
